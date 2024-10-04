@@ -1,0 +1,45 @@
+/* tampilan abis login */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+.error-container {
+  margin-top: 20px;
+}
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: red;
+}
+
