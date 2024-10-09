@@ -10,29 +10,23 @@
 
 <body>
     <div class="form-container">
-        <h2>Login Form</h2>
+        <h2>Login</h2>
         <form method="POST" action="SimpleClass_pertemuan4.php">
-            <table>
-                <tr>
-                    <td><input type="text" name="email" placeholder="Enter your email" required /></td>
-                </tr>
-                <tr>
-                    <td><input type="password" name="password" placeholder="Enter your password" required /></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" value="Submit" /></td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="registrasi-text">Belum ada akun? <a href="registrasi.php">Registrasi dahulu</a></p>
-                    </td>
-                </tr>
-            </table>
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Alamat Email" required />
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Password" required />
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Masuk" />
+            </div>
+            <p class="registrasi-text">Belum punya akun? <a href="registrasi.php">Daftar disini</a></p>
         </form>
     </div>
 
     <footer>
-        <p class="credit">by Nickel M and Nicholas ST</p>
+        <p class="credit">© 2024 by Nickel M and Nicholas ST</p>
     </footer>
 </body>
 
